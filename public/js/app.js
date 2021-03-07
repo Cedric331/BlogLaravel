@@ -2892,15 +2892,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   props: {
     user: Object
@@ -38455,26 +38446,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div")
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("h1", [_vm._v("Welcome")]),
-      _vm._v(" "),
-      _c("p", [_vm._v("Hello , welcome to your first Inertia app!")]),
-      _vm._v(" "),
-      _c("p", {}, [
-        _vm._v(
-          "\n      “Tailwind CSS is the only framework that I've seen scale\n      on large teams. It’s easy to customize, adapts to any design,\n      and the build size is tiny.”\n    "
-        )
-      ])
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
